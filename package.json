@@ -1,0 +1,32 @@
+{
+  "name": "code_editor",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "server": "node socketServer.ts"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.5.1",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^1.4.0",
+    "baseui": "^13.0.0",
+    "monaco-editor-webpack-plugin": "^7.1.0",
+    "next": "^13.4.12",
+    "qs": "^6.11.2",
+    "react-confetti": "^6.1.0",
+    "react-monaco-editor": "^0.54.0",
+    "react-use": "^17.4.0",
+    "socket.io": "^4.7.1",
+    "socket.io-client": "^4.7.1",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.5",
+    "@types/react": "18.2.18",
+    "typescript": "5.1.6"
+  }
+}
